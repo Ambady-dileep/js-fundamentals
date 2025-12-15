@@ -23,10 +23,13 @@ console.log(country)
 // ==============================
 
 let firstName = "Ambady";   // camelCase (best practice)
+
+// allowed but rarely used
 let _count = 10;
 let $price = 100;
-console.log(_count) 
-console.log($price)
+
+console.log(_count);
+console.log($price);
 
 // // ❌ Invalid
 // let 1name = "test";
