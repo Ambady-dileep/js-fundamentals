@@ -9,15 +9,13 @@ let lastName = "Dileep";
 console.log(firstName);
 console.log(typeof firstName);
 
-
 // 2. NUMBER
 let age = 19;
 let price = 99.99;
 
-console.log(age)
+console.log(age);
 console.log(typeof age); 
 console.log(typeof price); 
-
 
 // 3. BOOLEAN
 let isLoggedIn = true;
@@ -25,7 +23,6 @@ let isAdmin = false;
 
 console.log(isLoggedIn);
 console.log(typeof isLoggedIn);
-
 
 // 4. UNDEFINED
 let score;
@@ -46,5 +43,5 @@ console.log(typeof selectedUser); // object (JS bug)
 // null → value assigned intentionally as “empty”
 
 // JS mistake:
-console.log(typeof null === "object")
+console.log(typeof null === "object");
 // This is a known JS bug, not your fault.
