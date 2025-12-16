@@ -152,28 +152,82 @@
 // console.log(moveZeros(arr))
 
 // // ================================================
-// // 9. COUNT POSITIVE, NEGATIVE, AND ZERO VALUES
+// // 10. COUNT POSITIVE, NEGATIVE, AND ZERO VALUES
 // // ================================================
-function countTypes(arr){
-    let result = {
-        positive: 0,
-        negative: 0,
-        zero: 0
-    }
-    for (let num of arr){
-        if (num > 0){
-            result.positive++
-        }else if (num < 0){
-            result.negative++
-        }else{
-            result.zero++
-        }
-    }return result
+// function countTypes(arr){
+//     let result = {
+//         positive: 0,
+//         negative: 0,
+//         zero: 0
+//     }
+//     for (let num of arr){
+//         if (num > 0){
+//             result.positive++
+//         }else if (num < 0){
+//             result.negative++
+//         }else{
+//             result.zero++
+//         }
+//     }return result
+// }
+
+// let arr = [1, -2, 0, 5, -8, 0, 3]
+// console.log(countTypes(arr))
+
+// // ===================================
+// // 11. FIND THE SMALLEST ELEMENT
+// // ===================================
+// function findSmallest(arr){
+//     if (arr.length === 0) return null
+//     let smallest = arr[0]
+//     for (let i = 1; i < arr.length; i ++){
+//         if(arr[i] < smallest){
+//             smallest = arr[i]
+//         }
+//     }return smallest
+// }
+// arr = [7, 3, 9, 2, 8]
+// console.log(findSmallest(arr))
+
+// // ================================================
+// // 12. FIND THE INDEX OF THE FIRST OCCURRENCE
+// // ================================================
+// function firstOccIndex(arr,target){
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] === target){
+//             return i
+//         }
+//     }return -1
+// }
+
+// let arr = [4, 6, 8, 6, 9]
+// let target = 6
+// console.log(firstOccIndex(arr,target))
+
+// // =======================================
+// // 13. CHECK IF ALL ELEMENTS ARE UNIQUE
+// // =======================================
+function isUnique(arr){
+
 }
-
-let arr = [1, -2, 0, 5, -8, 0, 3]
-console.log(countTypes(arr))
+const arr = [1, 2, 3, 4, 5]
+console.log(isUnique(arr))
 
 // // ================================================
-// // 10. FIND THE SMALLEST ELEMENT
+// // 14. COUNT HOW MANY TIMES A TARGET APPEARS
 // // ================================================
+// function targetCount(arr){
+
+// }
+// let arr = [5, 2, 5, 3, 5, 4]
+// let target = 5
+// console.log(targetCount(arr))
+
+// // =============================================
+// // 15. REPLACE ALL NEGATIVE NUMBERS WITH 0
+// // =============================================
+// function replaceNegative(arr){
+
+// }
+// let arr = [3, -1, 4, -5, 2]
+// console.log(replaceNegative(arr))
