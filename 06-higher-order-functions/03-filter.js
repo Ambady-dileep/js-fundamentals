@@ -39,3 +39,5 @@ console.log("Adults:", adults);
 // 🚨 Reality:
 // filter MUST return true or false
 // If you return something else → bug
+
+
