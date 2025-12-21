@@ -54,6 +54,6 @@ console.log(isPalindrome("hello"));
 
 // ------------------------------
 
-// 🚨 Reality check:
+// 🚨 Remember :
 // Functions should RETURN values
 // Not just print
